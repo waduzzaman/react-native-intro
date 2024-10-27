@@ -6,7 +6,6 @@ export default function ElevatedCards() {
     <View>
       <Text style={styles.headingText}>Elevated Cards</Text>
       <ScrollView horizontal={true} style={styles.container}>
-       
         <View style={[styles.card, styles.cardElevated]}>
           <Text>Ta</Text>
         </View>
@@ -47,18 +46,18 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     width: 100,
     height: 100,
-    borderRadius:4,
-    margin:5,
+    borderRadius: 4,
+    margin: 5,
   },
   cardElevated: {
     backgroundColor: '#568FF6',
-    elevation:4,
-    shadowOffset:{
-        width: 1,
-        height: 1,
+    elevation: 4,
+    shadowOffset: {
+      width: 1,
+      height: 1,
     },
-    shadowColor:'#333',
-    shadowOpacity:0.4,
-    shadowRadius:2,
+    shadowColor: '#333',
+    shadowOpacity: 0.4,
+    shadowRadius: 2,
   },
 });
